@@ -1,0 +1,5 @@
+<h1>My Web Application</h1>
+<button onclick="fetch('/hello').then(r => r.text()).then(t => out.textContent = t)">
+    Send HTTP Request
+</button>
+<p id="out"></p>
